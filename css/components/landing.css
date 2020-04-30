@@ -1,0 +1,110 @@
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=730&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+.banner h1 {
+  color: #D8DDDE;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.banner p {
+    color: white;
+    opacity: .7;
+    font-size: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #941C2F;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #E2D4B7;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.footer a {
+    font-size: 30px;
+    color: #941C2F;
+}
+
+.footer .fas {
+    color: #941C2F;
+}
